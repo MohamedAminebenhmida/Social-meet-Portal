@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  margin:100px;
+}
+.todo{
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.todo h4 {
+  width: 160px;
+}
+button{
+  width: 100px;
+ height: 30px;
+  background-color: rgb(59, 59, 61);
+  color:white;
+  border-radius: 5px;
+}
+.todos-list{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.add-todo{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.add-todo input {
+  width: 200px;
+  height: 20px;
+}
+.filter {
+  display:flex;
+  justify-content: space-around;
+  margin:30px;
+}
