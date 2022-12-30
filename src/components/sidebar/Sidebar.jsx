@@ -10,7 +10,7 @@ import {RssFeed,
   School,} from "@mui/icons-material";
   import { Users } from "../../dummyData";
 import CloseFriend from "../closeFriend/CloseFriend";
-function sidebar() {
+export default function Sidebar() {
   return (
     <div className="sidebar">
       <div className="sidebarWrapper">
@@ -61,7 +61,5 @@ function sidebar() {
         </ul>
       </div>
     </div>
-  )
+  );
 }
-
-export default sidebar

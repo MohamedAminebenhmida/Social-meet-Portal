@@ -1,13 +1,13 @@
 import './share.css'
 import {EmojiEmotions, Label, PermMedia, Room} from "@mui/icons-material";
-function Share() {
+export default function Share() {
   return (
     <div className="share">
       <div className="shareWrapper">
         <div className="shareTop">
           <img className="shareProfileImg" src="/assets/person/1.jpeg" alt="" />
           <input
-            placeholder="What's in your mind ?"
+            placeholder="What's in your mind Safak?"
             className="shareInput"
           />
         </div>
@@ -35,7 +35,5 @@ function Share() {
         </div>
       </div>
     </div>
-  )
+  );
 }
-
-export default Share
